@@ -1,0 +1,59 @@
+body{
+    justify-content: center;
+    background-color:mediumaquamarine ;
+    
+}
+h2{
+    text-align: center;
+    margin: 1vh;
+}
+
+
+.imagen > img{
+    
+    width: 40vw;
+    height: 50vh;
+    padding: 1vh;
+    object-fit: contain;
+}
+
+.buttons{
+    text-align: center;
+    justify-content: center;
+    margin: 1vh;
+}
+button{
+    background-color:burlywood;
+    margin: 0.5vw;
+}
+button:focus{
+    border: none;
+    
+}
+.favoritos{
+    border-radius: 2%;
+    height: 12vh;
+    /* border: solid 1px black; */
+    width: 40vw;
+    padding: 0.5vw 0.5vw;
+    overflow: auto;
+    white-space: nowrap;
+    
+}
+.favoritos img{
+    height: 90%;
+    margin: 0 0.5vh;
+    border: solid 1px mediumaquamarine;
+    border-radius: 1vh;
+    
+    
+}
+.favoritos::-webkit-scrollbar{
+    background-color: burlywood;
+    border-radius: 1vh;
+}
+.favoritos::-webkit-scrollbar-thumb{
+    background-color:cadetblue;
+    border-radius: 1vh;
+
+}
