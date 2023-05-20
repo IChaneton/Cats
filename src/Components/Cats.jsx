@@ -10,7 +10,7 @@ const Cats = () => {
   
     return (
     <> 
-            <h2>Los gatos que te gustan...</h2>
+            <h2>Los gatos que le gustan a JM...</h2>
             <Viewer
                 data = {data}
                 refetch = {refetch}
